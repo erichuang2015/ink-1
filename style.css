@@ -31,16 +31,22 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* real stuff begins */
 
+.wf-active body,
 body {
+    display: block;
     margin: 0;
     padding: 0;
 	background-color: #fff;
-	font-family: "Work Sans", Verdana, Arial, sans-serif;
+	font-family: "skolar-sans-latin-extended", Verdana, Arial, sans-serif;
 	font-size: 15px;
 	color: #222;
 	line-height: 1.5;
 	-webkit-font-smoothing: subpixel-antialiased;
 	font-smoothing: subpixel-antialiased;
+}
+
+.wf-loading body {
+    margin: -9999px;
 }
 
 pre {
@@ -51,7 +57,7 @@ pre {
 }
 
 a {
-	color: #337ab7;
+	color: #4DA169;
     text-decoration: none;
 }
 
@@ -181,6 +187,7 @@ a.skip-link, span.byline, .screen-reader-text { display: none; }
 .entry-footer { color: #888; clear: both; margin: 1em 0; }
 .entry-footer .tags-links { color: #999; }
 .posted-on a { color: #777; }
+.entry-footer::before { content: '---';}
 
 .site-description { color: #777; margin: 0; }
 
@@ -193,6 +200,12 @@ a.skip-link, span.byline, .screen-reader-text { display: none; }
 .archive .format-quote .entry-title
 { display: none; }
 
+.home .format-aside .entry-footer,
+.archive .format-aside .entry-footer,
+.home .format-quote .entry-footer,
+.archive .format-quote .entry-footer
+{ display: none; }
+
 .entry-header { margin-bottom: 1em; }
 
 .home .format-quote .sharedaddy { display: none; }
@@ -200,7 +213,7 @@ a.skip-link, span.byline, .screen-reader-text { display: none; }
 .entry-title, .page-title { font-size: 1.2em; margin: 0; }
 .page-title { margin: 0 0 2em 0; }
 
-.entry-title { color: #337ab7; }
+.entry-title { color: #4DA169; }
 .widget-title { font-size: 1.2em; color: #777; margin: 0 0 1em 0;}
 p.tag-browse-list {
     margin-top: 0;
@@ -212,14 +225,15 @@ p.tag-browse-list {
 
 .site-branding {
     border-top: 2px dashed #ddd;
-	border-bottom: 2px dashed #ddd;
-	background: #fafafa;
-	padding-top: 2em;
-    padding-bottom: 2em;
+    border-bottom: 2px dashed #ddd;
+    line-height: 1;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
 }
 
 .main-navigation {
     display: block;
+    line-height: 1;
     padding: 1em 0;
 }
 
@@ -407,7 +421,7 @@ input, textarea,
 .sd-content ul li.preview-item div.option.option-smart-off a, .sd-social-icon .sd-content ul li a.sd-button,
 .sd-social-icon-text .sd-content ul li a.sd-button, .sd-social-official .sd-content>ul>li .digg_button >a,
 .sd-social-official .sd-content>ul>li>a.sd-button, .sd-social-text .sd-content ul li a.sd-button {
-	font-family: "Work Sans", "Verdana", arial, sans-serif !important;
+	font-family: "skolar-sans-latin-extended", "Verdana", arial, sans-serif !important;
 	border-radius: 0 !important;
 	box-shadow: none !important;
 	text-shadow: none !important;
@@ -484,7 +498,7 @@ sub a {
 	color: #777;
 	clear: both;
 	border-top: 2px dashed #ddd;
-	padding:2em 3em;
+	padding:1.25em 3em;
 	background-color: #fafafa;
 }
 
