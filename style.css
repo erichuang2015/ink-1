@@ -31,22 +31,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* real stuff begins */
 
-.wf-active body,
 body {
     display: block;
     margin: 0;
     padding: 0;
 	background-color: #fff;
-	font-family: "skolar-sans-latin-extended", Verdana, Arial, sans-serif;
+	font-family: "Work Sans", Verdana, Arial, sans-serif;
 	font-size: 15px;
 	color: #222;
 	line-height: 1.5;
 	-webkit-font-smoothing: subpixel-antialiased;
 	font-smoothing: subpixel-antialiased;
-}
-
-.wf-loading body {
-    margin: -9999px;
 }
 
 pre {
@@ -421,7 +416,7 @@ input, textarea,
 .sd-content ul li.preview-item div.option.option-smart-off a, .sd-social-icon .sd-content ul li a.sd-button,
 .sd-social-icon-text .sd-content ul li a.sd-button, .sd-social-official .sd-content>ul>li .digg_button >a,
 .sd-social-official .sd-content>ul>li>a.sd-button, .sd-social-text .sd-content ul li a.sd-button {
-	font-family: "skolar-sans-latin-extended", "Verdana", arial, sans-serif !important;
+	font-family: "Work Sans", "Verdana", arial, sans-serif !important;
 	border-radius: 0 !important;
 	box-shadow: none !important;
 	text-shadow: none !important;
