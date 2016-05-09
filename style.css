@@ -157,7 +157,7 @@ blockquote > ul li {
 }
 
 article {
-    margin: 0 0 3em;
+    margin: 0 0 2.5em;
 }
 
 .entry-header,.page-header {
@@ -322,7 +322,7 @@ p.tag-browse-list {
 }
 
 .site-content nav {
-    margin: 3em 0;
+    margin: 2.5em 0;
     clear: both;
     line-height: 2;
     overflow: hidden;
@@ -623,7 +623,7 @@ h3.r {
 }
 
 .widget-area {
-    margin-bottom: 3em;
+    margin-bottom: 2.5em;
     float: right;
     width: 30%;
 }
