@@ -56,7 +56,7 @@ pre {
 }
 
 a {
-    color: #4DA169;
+    color: #27AE60;
     text-decoration: none;
 }
 
@@ -73,7 +73,7 @@ a.pdf-link::after {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    color: #777;
+    color: #7F8C8D;
     font-size: 1.2em;
     font-weight: 400;
 }
@@ -93,25 +93,25 @@ figure {
 
 hr {
     border: none;
-    border-bottom: 2px dashed #ddd;
+    border-bottom: 2px dashed #BDC3C7;
     margin: 1.5em 0;
 }
 
 blockquote {
     padding-left: 1em;
     margin: 0;
-    border-left: 4px solid #eee;
-    color: #777;
+    border-left: 4px solid #ECF0F1;
+    color: #7F8C8D;
 }
 
 blockquote > blockquote {
-    border-left: 4px solid #f6f6f6;
-    color: #999;
+    border-left: 4px solid #ECF0F1;
+    color: #7F8C8D;
 }
 
 .comment-content blockquote {
-    color: #999;
-    border-left: 4px solid #eee;
+    color: #7F8C8D;
+    border-left: 4px solid #ECF0F1;
 }
 
 blockquote > ul {
@@ -138,7 +138,7 @@ blockquote > ul li {
     content: "-";
     position: relative;
     left: -5px;
-    color: #777;
+    color: #7F8C8D;
 }
 
 .entry-content > ul li {
@@ -149,7 +149,7 @@ blockquote > ul li {
     background: #f6f6f6;
     font-size: .9em;
     padding: 1em;
-    color: #777;
+    color: #7F8C8D;
 }
 
 article {
@@ -187,7 +187,7 @@ a.skip-link,span.byline,.screen-reader-text {
 }
 
 .entry-footer {
-    color: #777;
+    color: #7F8C8D;
     clear: both;
     margin: 1em 0;
 }
@@ -197,7 +197,7 @@ a.skip-link,span.byline,.screen-reader-text {
 }
 
 .site-description {
-    color: #777;
+    color: #7F8C8D;
     margin: 0;
 }
 
@@ -227,7 +227,7 @@ a.skip-link,span.byline,.screen-reader-text {
 }
 
 .entry-title {
-    color: #4DA169;
+    color: #27AE60;
     font-size: 1.2em;
     margin: 0;
 }
@@ -238,12 +238,12 @@ a.skip-link,span.byline,.screen-reader-text {
 }
 
 .posted-on a {
-    color: #777;
+    color: #7F8C8D;
 }
 
 .widget-title {
     font-size: 1.2em;
-    color: #777;
+    color: #7F8C8D;
     margin: 0 0 1em;
 }
 
@@ -262,8 +262,8 @@ p.tag-browse-list {
 }
 
 .site-branding {
-    border-top: 2px dashed #ddd;
-    border-bottom: 2px dashed #ddd;
+    border-top: 2px dashed #BDC3C7;
+    border-bottom: 2px dashed #BDC3C7;
     line-height: 1;
     padding-top: 1.5em;
     padding-bottom: 1.7em;
@@ -276,7 +276,7 @@ p.tag-browse-list {
 }
 
 .main-navigation a {
-    color: #777;
+    color: #7F8C8D;
 }
 
 .main-navigation ul {
@@ -286,7 +286,7 @@ p.tag-browse-list {
 }
 
 .nav-links {
-    color: #777;
+    color: #7F8C8D;
 }
 
 .nav-previous {
@@ -361,7 +361,7 @@ img.aligncenter,.wp-caption.aligncenter {
 .entry-content img,.comment-content img,.widget img {
     max-width: 100%;
     height: auto;
-    border: 1px solid #ddd;
+    border: 1px solid #ECF0F1;
 }
 
 .wp-caption {
@@ -371,7 +371,7 @@ img.aligncenter,.wp-caption.aligncenter {
 
 .wp-caption .wp-caption-text,.gallery-caption,.entry-caption {
     font-size: .9em;
-    color: #777;
+    color: #7F8C8D;
     clear: both;
 }
 
@@ -445,12 +445,12 @@ p {
 }
 
 .comment article {
-    color: #777;
+    color: #7F8C8D;
     margin: 1em 0;
 }
 
 .comment-metadata a {
-    color: #777;
+    color: #7F8C8D;
 }
 
 .comment-author .says {
@@ -485,7 +485,7 @@ h3#reply-title {
 }
 
 #comment-notes {
-    color: #777;
+    color: #7F8C8D;
     font-size: .9em;
 }
 
@@ -495,7 +495,7 @@ h3#reply-title {
 
 .bypostauthor .comment-meta::after {
     content: '\2605';
-    color: #ccc;
+    color: #BDC3C7;
 }
 
 .pinglist .comment-metadata,.pinglist .reply,.pinglist .comment-content {
@@ -517,7 +517,7 @@ li.pingback {
 .comment-content {
     font-size: .9em;
     padding-left: .75em;
-    border-left: .5em solid #ddd;
+    border-left: .5em solid #ECF0F1;
 }
 
 .comment-content p {
@@ -531,14 +531,16 @@ p.contact-submit {
 input,textarea,.contact-form input,.contact-form textarea {
     font-size: 1em;
     line-height: 1.625;
-    border: 1px solid #ccc;
+    border: 1px solid #BDC3C7;
     padding: 3px 6px;
+    background: #fff;
+    color: #7F8C8D;
 }
 
 .contact-form input[type="submit"] {
-    border: 1px solid #ccc;
-    background: #eee;
-    color: #777;
+    border: 1px solid #BDC3C7;
+    background: #fff;
+    color: #7F8C8D;
 }
 
 .contact-form label {
@@ -584,7 +586,7 @@ h3.r {
 }
 
 .tag-sep,.entry-footer .sep {
-    color: #777;
+    color: #7F8C8D;
     font-weight: 700;
     margin: 0 1px;
 }
@@ -622,9 +624,9 @@ h3.r {
 }
 
 .site-footer {
-    color: #777;
+    color: #7F8C8D;
     clear: both;
-    border-top: 2px dashed #ddd;
+    border-top: 2px dashed #BDC3C7;
     line-height: 1;
     padding-top: 1.5em;
     padding-bottom: 1.7em;
@@ -658,9 +660,9 @@ img#smiley {
 
 #subscribe-submit input[type="submit"] {
     font-size: 1em;
-    border: 1px solid #ccc;
-    background: #eee;
-    color: #777 !important;
+    border: 1px solid #BDC3C7;
+    background: #ECF0F1;
+    color: #7F8C8D !important;
     font-weight: 400;
     line-height: 1.625;
     -webkit-font-smoothing: subpixel-antialiased;
