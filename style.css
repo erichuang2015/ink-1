@@ -86,6 +86,10 @@ input,textarea {
     font-family: inherit;
 }
 
+*:focus {
+    outline-color: #BDC3C7;
+}
+
 figure {
     margin: 0;
     padding: 0;
