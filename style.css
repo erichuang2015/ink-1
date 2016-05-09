@@ -545,6 +545,10 @@ input,textarea,.contact-form input,.contact-form textarea {
 
 .contact-form label {
     font-weight: 400 !important;
+    color: #7F8C8D !important;
+}
+.contact-form label span {
+    color: #BDC3C7 !important;
 }
 
 /* Sharing */
