@@ -79,7 +79,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .entry-content h1,.entry-content h2,.entry-content h3,.entry-content h4,.entry-content h5,.entry-content h6,.comments-area h1,.comments-area h2,.comments-area h3,.comments-area h4,.comments-area h5,.comments-area h6 {
-    margin: 2em 0 1em;
+    margin: 1.5em 0 0.5em;
+    font-size: 1em;
 }
 
 input,textarea {
@@ -246,7 +247,7 @@ a.skip-link,span.byline,.screen-reader-text {
 }
 
 .widget-title {
-    font-size: 1.2em;
+    font-size: 1em;
     color: #7F8C8D;
     margin: 0 0 1em;
 }
