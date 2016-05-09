@@ -189,17 +189,18 @@ a.skip-link, span.byline, .screen-reader-text { display: none; }
 .site-title { display: inline; margin: 0 0.5em 0 0; }
 .site-description { display: inline; }
 
-.home .format-aside .entry-title,
-.archive .format-aside .entry-title,
-.home .format-quote .entry-title,
-.archive .format-quote .entry-title
-{ display: none; }
+.format-aside .entry-title,
+.format-quote .entry-title { display: none; }
 
-.home .format-aside .entry-footer,
-.archive .format-aside .entry-footer,
-.home .format-quote .entry-footer,
-.archive .format-quote .entry-footer
-{ display: none; }
+.single .entry-title { display: block; }
+
+.type-page .entry-footer,
+.format-aside .entry-footer,
+.format-quote .entry-footer { display: none; }
+
+.single .type-post .entry-footer {
+    display: block;
+}
 
 .entry-header { margin-bottom: 1em; }
 
