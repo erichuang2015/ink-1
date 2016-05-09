@@ -262,6 +262,7 @@ p.tag-browse-list {
 }
 
 .site-branding {
+    background: #f7f9f9;
     border-top: 2px dashed #BDC3C7;
     border-bottom: 2px dashed #BDC3C7;
     line-height: 1;
@@ -628,6 +629,7 @@ h3.r {
 }
 
 .site-footer {
+    background: #f7f9f9;
     color: #7F8C8D;
     clear: both;
     border-top: 2px dashed #BDC3C7;
