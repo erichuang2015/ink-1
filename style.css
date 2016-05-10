@@ -74,12 +74,12 @@ a.pdf-link::after {
 
 h1,h2,h3,h4,h5,h6 {
     color: #7F8C8D;
-    font-size: 1.2em;
+    font-size: 1.25em;
     font-weight: 400;
 }
 
 .entry-content h1,.entry-content h2,.entry-content h3,.entry-content h4,.entry-content h5,.entry-content h6,.comments-area h1,.comments-area h2,.comments-area h3,.comments-area h4,.comments-area h5,.comments-area h6 {
-    margin: 1.5em 0 0.5em;
+    margin: 2.5em 0 1em;
     font-size: 1em;
 }
 
@@ -161,20 +161,13 @@ article {
     margin: 0 0 2.5em;
 }
 
-.entry-header,.page-header {
-    margin: 0;
-}
-
 #page {
     background: #fff;
+    margin: 0 auto;
+    max-width: 800px;
 }
 
 .main-navigation .menu,.site-branding,.site-content,.site-footer {
-    padding: 0 2em;
-}
-
-.site-header {
-    margin-bottom: 2em;
 }
 
 a.skip-link,span.byline,.screen-reader-text {
@@ -194,11 +187,7 @@ a.skip-link,span.byline,.screen-reader-text {
 .entry-footer {
     color: #7F8C8D;
     clear: both;
-    margin: 1em 0;
-}
-
-.entry-footer::before {
-    content: '---';
+    padding: 0 1em;
 }
 
 .site-description {
@@ -224,7 +213,18 @@ a.skip-link,span.byline,.screen-reader-text {
 }
 
 .entry-header {
-    margin-bottom: 1em;
+    margin-bottom: 1.25em;
+    padding: 1.25em 1em;
+    border-top: 2px solid #BDC3C7;
+    border-bottom: 2px dashed #BDC3C7;
+}
+
+.page-header {
+    padding: 0 1em 1.25em 1em;
+}
+
+.entry-content {
+    padding: 0 1em;
 }
 
 .home .format-quote .sharedaddy {
@@ -233,13 +233,14 @@ a.skip-link,span.byline,.screen-reader-text {
 
 .entry-title {
     color: #27AE60;
-    font-size: 1.2em;
+    font-size: 1.25em;
     margin: 0;
 }
 
 .page-title {
-    font-size: 1.2em;
-    margin: 0 0 2em;
+    margin: 0;
+    font-size: 1em;
+    color: #7F8C8D;
 }
 
 .posted-on a {
@@ -249,11 +250,11 @@ a.skip-link,span.byline,.screen-reader-text {
 .widget-title {
     font-size: 1em;
     color: #7F8C8D;
-    margin: 0 0 1em;
+    margin-top: 0;
 }
 
 p.tag-browse-list {
-    margin-top: 0;
+    margin: 0;
 }
 
 .tag-browse-list a {
@@ -267,18 +268,14 @@ p.tag-browse-list {
 }
 
 .site-branding {
-    background: #f7f9f9;
-    border-top: 2px dashed #BDC3C7;
+    border-top: 2px solid #BDC3C7;
     border-bottom: 2px dashed #BDC3C7;
-    line-height: 1;
-    padding-top: 1.5em;
-    padding-bottom: 1.7em;
+    padding: 1.25em 1em;
 }
 
 .main-navigation {
     display: block;
-    line-height: 1;
-    padding: 1em 0 1.1em;
+    padding: 2.5em 1em 1.25em 1em;
 }
 
 .main-navigation a {
@@ -322,11 +319,12 @@ p.tag-browse-list {
     content: '\2192';
 }
 
-.site-content nav {
-    margin: 2.5em 0;
+.posts-navigation {
+    margin-top: 2.5em;
     clear: both;
-    line-height: 2;
     overflow: hidden;
+    padding: 1.25em 1em;
+    border-top: 2px solid #BDC3C7;
 }
 
 .main-navigation .current_page_item > a {
@@ -399,6 +397,10 @@ img.wp-smiley,.rsswidget img {
     display: block;
 }
 
+.gallery-caption {
+    height: 3.75em;
+}
+
 .gallery-caption a {
     display: inline;
 }
@@ -411,12 +413,13 @@ img.wp-smiley,.rsswidget img {
 .gallery .gallery-icon img {
     height: auto;
     max-width: 90%;
-    padding: 5%;
+    padding: 2.5%;
 }
 
 .gallery-columns-1 .gallery-icon img {
-    padding: 3%;
+    padding: 2.5%;
 }
+
 
 img.alignleft,.wp-caption.alignleft {
     margin: 1em 2em 1em 0;
@@ -613,34 +616,19 @@ h3.r {
 }
 
 /* Structure */
-.content-area {
-    float: left;
-    margin: 0 -35% 0 0;
-    width: 100%;
-}
-
-.site-main {
-    margin: 0 35% 0 0;
-}
 
 .widget-area {
-    margin-bottom: 2.5em;
-    float: right;
-    width: 32%;
+    padding: 1.25em 1em 0 1em;
 }
-
 .widget {
-    margin-bottom: 2em;
+    margin-bottom: 2.5em;
 }
 
 .site-footer {
-    background: #f7f9f9;
     color: #7F8C8D;
     clear: both;
     border-top: 2px dashed #BDC3C7;
-    line-height: 1;
-    padding-top: 1.5em;
-    padding-bottom: 1.7em;
+    padding: 1.25em 1em;
 }
 
 img#smiley {
