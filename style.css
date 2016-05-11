@@ -192,16 +192,12 @@ a.skip-link,span.byline,.screen-reader-text {
 
 .site-description {
     color: #7F8C8D;
+    font-size: 1em;
     margin: 0;
 }
 
 .site-title {
-    display: inline;
-    margin: 0 .5em 0 0;
-}
-
-.site-description {
-    display: inline;
+    margin: 0;
 }
 
 .format-aside .entry-title,.format-quote .entry-title,.format-aside .entry-footer,.format-quote .entry-footer,.type-page .entry-footer {
