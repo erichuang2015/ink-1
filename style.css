@@ -260,7 +260,7 @@ p.tag-browse-list {
 
 .edit-link a {
     color: red;
-    margin-left: 1em;
+    float: right;
 }
 
 .site-branding {
