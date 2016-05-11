@@ -210,7 +210,7 @@ a.skip-link,span.byline,.screen-reader-text {
 
 .entry-header {
     margin-bottom: 1em;
-    padding: 1em;
+    padding: 0.75em 1em 1em 1em;
     border-top: 2px solid #95A5A6;
     border-bottom: 2px dashed #95A5A6;
 }
@@ -266,7 +266,7 @@ p.tag-browse-list {
 .site-branding {
     border-top: 2px solid #95A5A6;
     border-bottom: 2px dashed #95A5A6;
-    padding: 1em;
+    padding: 0.75em 1em 1em 1em;
 }
 
 .main-navigation {
@@ -320,7 +320,7 @@ p.tag-browse-list {
     margin-top: 3em;
     clear: both;
     overflow: hidden;
-    padding: 1em;
+    padding: 0.75em 1em 1em 1em;
     border-top: 2px solid #95A5A6;
 }
 
