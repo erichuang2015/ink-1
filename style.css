@@ -198,6 +198,7 @@ a.skip-link,span.byline,.screen-reader-text {
 
 .site-title {
     margin: 0;
+    line-height: 1.25;
 }
 
 .format-aside .entry-title,.format-quote .entry-title,.format-aside .entry-footer,.format-quote .entry-footer,.type-page .entry-footer {
