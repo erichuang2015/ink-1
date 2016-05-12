@@ -157,7 +157,7 @@ blockquote > ul li {
 }
 
 article {
-    margin: 0 0 3em;
+    margin: 0 0 2em;
 }
 
 #page {
@@ -268,7 +268,7 @@ p.tag-browse-list {
 
 .main-navigation {
     display: block;
-    padding: 3em 1em 1em 1em;
+    padding: 2em 1em 1em 1em;
 }
 
 .main-navigation a {
@@ -314,7 +314,7 @@ p.tag-browse-list {
 
 .post-navigation,
 .posts-navigation {
-    margin-top: 3em;
+    margin-top: 2em;
     clear: both;
     overflow: hidden;
     padding: 1em 1em 1.125em 1em;
@@ -615,14 +615,14 @@ h3.r {
     padding: 1em 1em 0 1em;
 }
 .widget {
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 }
 
 .site-footer {
     color: #7F8C8D;
     clear: both;
     border-top: 2px dashed #95A5A6;
-    padding: 1em 1em 3em;
+    padding: 1em 1em 2em;
 }
 
 img#smiley {
