@@ -20,7 +20,7 @@ All CSS is original, (C) 2015 Chris Rudzki, and is also distributed under the te
 */
 
 /* clear some defaults */
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,1em,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -209,14 +209,14 @@ a.skip-link,span.byline,.screen-reader-text {
 }
 
 .entry-header {
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
     padding: 1em;
     border-top: 2px solid #222;
     border-bottom: 2px dashed #222;
 }
 
 .page-header {
-    padding: 0 1em 1em 1em;
+    padding: 0 1em 1.5em 1em;
 }
 
 .entry-content {
@@ -266,7 +266,7 @@ p.tag-browse-list {
 
 .main-navigation {
     display: block;
-    padding: 3em 1em 1em 1em;
+    padding: 3em 1em 1.5em 1em;
 }
 
 .main-navigation a {
@@ -601,7 +601,7 @@ h3.r {
 /* Structure */
 
 .widget-area {
-    padding: 1em 1em 0 1em;
+    padding: 1.5em 1em 0 1em;
 }
 .widget {
     margin-bottom: 3em;
@@ -610,7 +610,7 @@ h3.r {
 .site-footer {
     clear: both;
     border-top: 2px dashed #222;
-    padding: 1em 1em 3em;
+    padding: 1.5em 1em 3em;
 }
 
 img#smiley {
