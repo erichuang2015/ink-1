@@ -51,8 +51,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 pre {
     color: #222;
     font-family: monospace;
-    font-size: 13px;
-    line-height: 1.5;
+    font-size: 16px;
+    line-height: 1.575;
 }
 
 a {
@@ -74,8 +74,7 @@ a.pdf-link::after {
 
 h1,h2,h3,h4,h5,h6 {
     color: #7F8C8D;
-    font-size: 1.25em;
-    line-height: 1.375;
+    font-size: 1em;
     font-weight: 400;
 }
 
@@ -199,7 +198,6 @@ a.skip-link,span.byline,.screen-reader-text {
 
 .site-title {
     margin: 0;
-    line-height: 1.375;
 }
 
 .format-aside .entry-title,.format-quote .entry-title,.format-aside .entry-footer,.format-quote .entry-footer,.type-page .entry-footer {
@@ -212,7 +210,7 @@ a.skip-link,span.byline,.screen-reader-text {
 
 .entry-header {
     margin-bottom: 1em;
-    padding: 1em 1em 1.25em 1em;
+    padding: 1em 1em 1.125em 1em;
     border-top: 2px solid #95A5A6;
     border-bottom: 2px dashed #95A5A6;
 }
@@ -231,14 +229,11 @@ a.skip-link,span.byline,.screen-reader-text {
 
 .entry-title {
     color: #27AE60;
-    font-size: 1.25em;
-    line-height: 1.375;
     margin: 0;
 }
 
 .page-title {
     margin: 0;
-    font-size: 1em;
     color: #7F8C8D;
 }
 
@@ -247,7 +242,6 @@ a.skip-link,span.byline,.screen-reader-text {
 }
 
 .widget-title {
-    font-size: 1em;
     color: #7F8C8D;
     margin-top: 0;
 }
@@ -269,7 +263,7 @@ p.tag-browse-list {
 .site-branding {
     border-top: 2px solid #95A5A6;
     border-bottom: 2px dashed #95A5A6;
-    padding: 1em 1em 1.25em 1em;
+    padding: 1em 1em 1.125em 1em;
 }
 
 .main-navigation {
@@ -323,7 +317,7 @@ p.tag-browse-list {
     margin-top: 3em;
     clear: both;
     overflow: hidden;
-    padding: 1em 1em 1.25em 1em;
+    padding: 1em 1em 1.125em 1em;
     border-top: 2px solid #95A5A6;
 }
 
