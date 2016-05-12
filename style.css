@@ -187,6 +187,7 @@ a.skip-link,span.byline,.screen-reader-text {
     color: #7F8C8D;
     clear: both;
     padding: 0 1em;
+    text-transform: capitalize;
 }
 
 .site-description {
