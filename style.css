@@ -56,12 +56,11 @@ pre {
 }
 
 a {
-    color: #229955;
-    text-decoration: none;
+    color: #1a7641;
+    text-decoration: underline;
 }
 
 a:hover {
-    text-decoration: underline;
 }
 
 a.pdf-link::after {
@@ -72,8 +71,14 @@ a.pdf-link::after {
     line-height: 1;
 }
 
+.site-info a,
+.entry-header a,
+.site-branding a {
+    text-decoration: none;
+}
+
 h1,h2,h3,h4,h5,h6 {
-    color: #7F8C8D;
+    color: #222;
     font-size: 1.125em;
     font-weight: 400;
 }
@@ -87,7 +92,7 @@ input,textarea {
 }
 
 *:focus {
-    outline-color: #95A5A6;
+    outline-color: #222;
 }
 
 figure {
@@ -97,25 +102,23 @@ figure {
 
 hr {
     border: none;
-    border-bottom: 2px dashed #95A5A6;
+    border-bottom: 2px dashed #222;
     margin: 1.5em 0;
 }
 
 blockquote {
     padding-left: 1em;
     margin: 0;
-    border-left: 2px solid #ECF0F1;
-    color: #7F8C8D;
+    border-left: 1px solid #222;
+    color: #222;
 }
 
 blockquote > blockquote {
-    border-left: 2px solid #ECF0F1;
-    color: #7F8C8D;
+    border-left: 1px solid #222;
 }
 
 .comment-content blockquote {
-    color: #7F8C8D;
-    border-left: 2px solid #ECF0F1;
+    border-left: 1px solid #222;
 }
 
 blockquote > ul {
@@ -142,7 +145,7 @@ blockquote > ul li {
     content: "-";
     position: relative;
     left: -5px;
-    color: #7F8C8D;
+    color: #222;
 }
 
 .entry-content > ul li {
@@ -153,11 +156,10 @@ blockquote > ul li {
     background: #f6f6f6;
     font-size: .9em;
     padding: 1em;
-    color: #7F8C8D;
 }
 
 article {
-    margin: 0 0 2em;
+    margin: 0 0 3em;
 }
 
 #page {
@@ -184,14 +186,12 @@ a.skip-link,span.byline,.screen-reader-text {
 }
 
 .entry-footer {
-    color: #7F8C8D;
     clear: both;
     padding: 0 1em;
     text-transform: capitalize;
 }
 
 .site-description {
-    color: #7F8C8D;
     font-size: 1em;
     margin: 0;
 }
@@ -210,9 +210,9 @@ a.skip-link,span.byline,.screen-reader-text {
 
 .entry-header {
     margin-bottom: 1em;
-    padding: 1em 1em 1.125em 1em;
-    border-top: 2px solid #95A5A6;
-    border-bottom: 2px dashed #95A5A6;
+    padding: 1em;
+    border-top: 2px solid #222;
+    border-bottom: 2px dashed #222;
 }
 
 .page-header {
@@ -228,21 +228,19 @@ a.skip-link,span.byline,.screen-reader-text {
 }
 
 .entry-title {
-    color: #229955;
+    color: #1a7641;
     margin: 0;
 }
 
 .page-title {
     margin: 0;
-    color: #7F8C8D;
 }
 
 .posted-on a {
-    color: #7F8C8D;
+    color: #222;
 }
 
 .widget-title {
-    color: #7F8C8D;
     margin-top: 0;
 }
 
@@ -261,18 +259,18 @@ p.tag-browse-list {
 }
 
 .site-branding {
-    border-top: 2px solid #95A5A6;
-    border-bottom: 2px dashed #95A5A6;
-    padding: 1em 1em 1.125em 1em;
+    border-top: 2px solid #222;
+    border-bottom: 2px dashed #222;
+    padding: 1em;
 }
 
 .main-navigation {
     display: block;
-    padding: 2em 1em 1em 1em;
+    padding: 3em 1em 1em 1em;
 }
 
 .main-navigation a {
-    color: #7F8C8D;
+    color: #222;
 }
 
 .main-navigation ul {
@@ -282,7 +280,6 @@ p.tag-browse-list {
 }
 
 .nav-links {
-    color: #7F8C8D;
 }
 
 .nav-previous {
@@ -314,15 +311,14 @@ p.tag-browse-list {
 
 .post-navigation,
 .posts-navigation {
-    margin-top: 2em;
+    margin-top: 3em;
     clear: both;
     overflow: hidden;
-    padding: 1em 1em 1.125em 1em;
-    border-top: 2px solid #95A5A6;
+    padding: 1em;
+    border-top: 2px solid #222;
 }
 
 .main-navigation .current_page_item > a {
-    text-decoration: underline;
 }
 
 .widget ul {
@@ -359,7 +355,7 @@ img.aligncenter,.wp-caption.aligncenter {
 .entry-content img,.comment-content img,.widget img {
     max-width: 100%;
     height: auto;
-    border: 1px solid #95A5A6;
+    border: 1px solid #222;
 }
 
 .wp-caption {
@@ -369,7 +365,6 @@ img.aligncenter,.wp-caption.aligncenter {
 
 .wp-caption .wp-caption-text,.gallery-caption,.entry-caption {
     font-size: .9em;
-    color: #7F8C8D;
     clear: both;
 }
 
@@ -444,16 +439,13 @@ p {
 }
 
 .comment-meta a {
-    text-decoration: none;
 }
 
 .comment article {
-    color: #7F8C8D;
     margin: 1em 0;
 }
 
 .comment-metadata a {
-    color: #7F8C8D;
 }
 
 .comment-author .says {
@@ -480,7 +472,7 @@ p {
 }
 
 #respond {
-    margin-top: 2em;
+    margin-top: 3em;
 }
 
 h3#reply-title {
@@ -488,7 +480,6 @@ h3#reply-title {
 }
 
 #comment-notes {
-    color: #7F8C8D;
     font-size: .9em;
 }
 
@@ -498,7 +489,6 @@ h3#reply-title {
 
 .bypostauthor .comment-meta::after {
     content: '\2605';
-    color: #95A5A6;
 }
 
 .pinglist .comment-metadata,.pinglist .reply,.pinglist .comment-content {
@@ -520,7 +510,7 @@ li.pingback {
 .comment-content {
     font-size: .9em;
     padding-left: .75em;
-    border-left: .5em solid #ECF0F1;
+    border-left: 1px solid #222;
 }
 
 .comment-content p {
@@ -534,24 +524,24 @@ p.contact-submit {
 input,textarea,.contact-form input,.contact-form textarea {
     font-size: 1em;
     line-height: 1.575;
-    border: 1px solid #95A5A6;
+    border: 1px solid #222;
     padding: 3px 6px;
     background: #fff;
-    color: #7F8C8D;
+    color: #222;
 }
 
 .contact-form input[type="submit"] {
-    border: 1px solid #95A5A6;
+    border: 1px solid #222;
     background: #fff;
-    color: #7F8C8D;
+    color: #222;
 }
 
 .contact-form label {
     font-weight: 400 !important;
-    color: #7F8C8D !important;
+    color: #222 !important;
 }
 .contact-form label span {
-    color: #95A5A6 !important;
+    color: #222 !important;
 }
 
 /* Sharing */
@@ -593,7 +583,6 @@ h3.r {
 }
 
 .tag-sep,.entry-footer .sep {
-    color: #7F8C8D;
     font-weight: 700;
     margin: 0 1px;
 }
@@ -615,14 +604,13 @@ h3.r {
     padding: 1em 1em 0 1em;
 }
 .widget {
-    margin-bottom: 2em;
+    margin-bottom: 3em;
 }
 
 .site-footer {
-    color: #7F8C8D;
     clear: both;
-    border-top: 2px dashed #95A5A6;
-    padding: 1em 1em 2em;
+    border-top: 2px dashed #222;
+    padding: 1em 1em 3em;
 }
 
 img#smiley {
@@ -653,9 +641,9 @@ img#smiley {
 
 #subscribe-submit input[type="submit"] {
     font-size: 1em;
-    border: 1px solid #95A5A6;
+    border: 1px solid #222;
     background: #ECF0F1;
-    color: #7F8C8D !important;
+    color: #222 !important;
     font-weight: 400;
     line-height: 1.575;
     -webkit-font-smoothing: subpixel-antialiased;
