@@ -424,7 +424,7 @@ img.aligncenter,.wp-caption.aligncenter {
     margin-bottom: 1em;
 }
 
-p {
+p, ol, ul {
     margin: 0 0 1em;
 }
 
