@@ -561,6 +561,10 @@ h3.r {
     text-decoration: none !important;
 }
 
+sup a:focus, sub a:focus {
+    outline: 0;
+}
+
 .tag-sep,.entry-footer .sep {
     font-weight: 700;
     margin: 0 1px;
