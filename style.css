@@ -122,37 +122,6 @@ blockquote > blockquote {
     border-left: 1px solid #222;
 }
 
-blockquote > ul {
-    padding-left: 0;
-    list-style-type: none;
-}
-
-blockquote > ul li:before {
-    content: "-";
-    position: relative;
-    left: -5px;
-}
-
-blockquote > ul li {
-    text-indent: 0;
-}
-
-.entry-content > ul {
-    padding-left: 0;
-    list-style-type: none;
-}
-
-.entry-content > ul li:before {
-    content: "-";
-    position: relative;
-    left: -5px;
-    color: #222;
-}
-
-.entry-content > ul li {
-    text-indent: 1em;
-}
-
 .postscript {
     background: #f6f6f6;
     font-size: .9em;
@@ -431,6 +400,10 @@ p {
 
 ol, ul {
     margin: 0 0 1em 1em;
+}
+
+ul {
+    list-style-type: circle;
 }
 
 /* Comments */
