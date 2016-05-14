@@ -425,8 +425,12 @@ img.aligncenter,.wp-caption.aligncenter {
     margin-bottom: 1em;
 }
 
-p, ol, ul {
+p {
     margin: 0 0 1em;
+}
+
+ol, ul {
+    margin: 0 0 1em 1em;
 }
 
 /* Comments */
