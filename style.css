@@ -64,6 +64,15 @@ a:hover {
     color: #9b685b;
 }
 
+a:focus {
+	outline: thin dotted;
+}
+
+a:hover,
+a:active {
+	outline: 0;
+}
+
 a.pdf-link::after {
     content: '(PDF)';
     padding: 0 2px;
@@ -90,10 +99,6 @@ h1,h2,h3,h4,h5,h6 {
 
 input,textarea {
     font-family: inherit;
-}
-
-*:focus {
-    outline-color: #222;
 }
 
 figure {
@@ -559,10 +564,6 @@ h3.r {
 
 .footnotereverse a,sup a,sub a {
     text-decoration: none !important;
-}
-
-sup a:focus, sub a:focus {
-    outline: 0;
 }
 
 .tag-sep,.entry-footer .sep {
