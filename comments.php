@@ -57,6 +57,5 @@ if ( post_password_required() ) {
 	<?php endif; ?>
 
 	<?php comment_form(); ?>
-	<div id="comment-notes">I may edit your reply for spelling and format, but never for substance. Also, I really don't give a fuck about cursing.</div>
 
 </div><!-- #comments -->
