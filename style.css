@@ -248,6 +248,10 @@ p.tag-browse-list {
     color: #222;
 }
 
+.main-navigation .current_page_item > a {
+    text-decoration: none;
+}
+
 .main-navigation ul {
     list-style-type: none;
     padding-left: 0;
@@ -291,9 +295,6 @@ p.tag-browse-list {
     overflow: hidden;
     padding: 1em;
     border-top: 2px solid #222;
-}
-
-.main-navigation .current_page_item > a {
 }
 
 .widget ul {
