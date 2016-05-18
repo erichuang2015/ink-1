@@ -56,12 +56,12 @@ pre {
 }
 
 a {
-    color: #52808B;
+    color: #4e6295;
     text-decoration: underline;
 }
 
 a:hover {
-    color: #B21D05;
+    color: #b02e2d;
 }
 
 a:focus {
@@ -203,7 +203,7 @@ a.skip-link,span.byline,.screen-reader-text {
 }
 
 .entry-title {
-    color: #52808B;
+    color: #4e6295;
     margin: 0;
 }
 
