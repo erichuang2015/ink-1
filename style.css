@@ -55,13 +55,13 @@ pre {
     line-height: 1.575;
 }
 
+.entry-title,
 a {
-    color: #4e6295;
-    text-decoration: underline;
+    color: #f00;
 }
 
 a:hover {
-    color: #f00;
+    color: #222;
 }
 
 a:focus {
@@ -203,7 +203,6 @@ a.skip-link,span.byline,.screen-reader-text {
 }
 
 .entry-title {
-    color: #4e6295;
     margin: 0;
 }
 
@@ -229,7 +228,7 @@ p.tag-browse-list {
 }
 
 .edit-link a {
-    color: red;
+    color: #f00;
     float: right;
 }
 
