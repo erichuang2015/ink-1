@@ -61,11 +61,11 @@ a {
 }
 
 a:hover {
-    text-decoration: none;
+    color: #888;
 }
 
 a:focus {
-	outline: thin dotted;
+	outline: thin dotted #222;
 }
 
 a:hover,
@@ -243,21 +243,15 @@ p.tag-browse-list {
     padding: 3em 1em 1.5em 1em;
 }
 
-.main-navigation a {
-    color: #222;
-}
-
 .main-navigation .current_page_item > a {
     text-decoration: none;
+    color: #222;
 }
 
 .main-navigation ul {
     list-style-type: none;
     padding-left: 0;
     margin: 0;
-}
-
-.nav-links {
 }
 
 .nav-previous {
