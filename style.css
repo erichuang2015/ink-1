@@ -89,7 +89,6 @@ a.pdf-link::after {
 
 h1,h2,h3,h4,h5,h6 {
     color: #222;
-    font-size: 1.125em;
     font-weight: 400;
 }
 
@@ -130,7 +129,6 @@ blockquote > blockquote {
 
 .postscript {
     background: #f6f6f6;
-    font-size: .9em;
     padding: 1em;
 }
 
@@ -168,7 +166,6 @@ a.skip-link,span.byline,.screen-reader-text {
 }
 
 .site-description {
-    font-size: 1em;
     margin: 0;
 }
 
@@ -334,7 +331,6 @@ img.aligncenter,.wp-caption.aligncenter {
 }
 
 .wp-caption .wp-caption-text,.gallery-caption,.entry-caption {
-    font-size: .9em;
     clear: both;
 }
 
@@ -413,7 +409,6 @@ ul {
 }
 
 .comment-meta {
-    font-size: .9em;
     margin-bottom: .5em;
 }
 
@@ -458,10 +453,6 @@ h3#reply-title {
     display: none;
 }
 
-#comment-notes {
-    font-size: .9em;
-}
-
 #comment-notes,.no-comments {
     display: none;
 }
@@ -487,7 +478,6 @@ li.pingback {
 }
 
 .comment-content {
-    font-size: .9em;
     padding-left: .75em;
     border-left: 1px solid #222;
 }
@@ -551,7 +541,7 @@ h3.r {
 }
 
 .entry-content sup {
-    font-size: 75%;
+    font-size: 85%;
     line-height: 0;
     vertical-align: super;
     padding: 0 1px;
