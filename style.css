@@ -94,7 +94,12 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .entry-content h1,.entry-content h2,.entry-content h3,.entry-content h4,.entry-content h5,.entry-content h6,.comments-area h1,.comments-area h2,.comments-area h3,.comments-area h4,.comments-area h5,.comments-area h6 {
-    margin: 2.5em 0 0.5em;
+    margin: 2em 0 0.5em;
+}
+
+.entry-content h1::before,.entry-content h2::before,.entry-content h3::before,.entry-content h4::before,.entry-content h5::before,.entry-content h6::before {
+    content: '\00A7';
+    padding-right: 0.5em
 }
 
 input,textarea {
