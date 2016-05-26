@@ -370,11 +370,6 @@ img.wp-smiley,.rsswidget img {
     padding: 2.5%;
 }
 
-.tiled-gallery .tiled-gallery-item img,
-.tiled-gallery .tiled-gallery-item img:hover {
-    border: 1px solid #222 !important;
-}
-
 img.alignleft,.wp-caption.alignleft {
     margin: 1em 2em 1em 0;
 }
