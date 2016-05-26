@@ -30,7 +30,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 /* onward */
 
-.wf-active body, body {
+body {
     display: block;
     margin: 0;
     padding: 0;
@@ -43,11 +43,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     font-smoothing: subpixel-antialiased;
 }
 
-/* show blank screen while font is rendering */
-.wf-loading body {
-    margin: -9999px;
-}
-
 pre {
     color: #222;
     font-family: monospace;
@@ -55,18 +50,12 @@ pre {
     line-height: 1.575;
 }
 
-/* see
-   http://www.december.com/html/spec/color1.html
-*/
-
 .entry-title,
 a {
-    /* 236B8E */
     color: #222;
 }
 
 a:hover {
-    /* C73F17 */
     color: #888;
 }
 
@@ -381,6 +370,10 @@ img.wp-smiley,.rsswidget img {
     padding: 2.5%;
 }
 
+.tiled-gallery .tiled-gallery-item img,
+.tiled-gallery .tiled-gallery-item img:hover {
+    border: 1px solid #222 !important;
+}
 
 img.alignleft,.wp-caption.alignleft {
     margin: 1em 2em 1em 0;
