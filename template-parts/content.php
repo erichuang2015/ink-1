@@ -4,15 +4,15 @@
  */
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article class="h-entry" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<?php the_title( sprintf( '<h1 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h1>' ); ?>
+		<?php the_title( sprintf( '<h1 class="p-name"><a href="%s" rel="bookmark u-url">', esc_url( get_permalink() ) ), '</a></h1>' ); ?>
 		<div class="entry-meta">
 			<?php ink_posted_on(); ?>
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
-	<div class="entry-content">
+	<div class="e-content">
 		<?php
 			/* translators: %s: Name of current post */
 			the_content( sprintf(
@@ -27,7 +27,7 @@
 				'after'  => '</div>',
 			) );
 		?>
-	</div><!-- .entry-content -->
+	</div><!-- .e-content -->
 
 	<footer class="entry-footer">
 		<?php ink_entry_footer(); ?>

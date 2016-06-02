@@ -6,12 +6,12 @@
  */
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article class="h-entry" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		<?php the_title( '<h1 class="p-name">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
-	<div class="entry-content">
+	<div class="e-content">
 		<?php the_content(); ?>
 		<?php
 			wp_link_pages( array(
@@ -19,7 +19,7 @@
 				'after'  => '</div>',
 			) );
 		?>
-	</div><!-- .entry-content -->
+	</div><!-- .e-content -->
 
 	<footer class="entry-footer">
 		<?php edit_post_link( esc_html__( 'Edit', 'ink' ), '<span class="edit-link">', '</span>' ); ?>
