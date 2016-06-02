@@ -15,7 +15,7 @@ if ( ! function_exists( 'ink_posted_on' ) ) :
 function ink_posted_on() {
 
 	$posted_on = '<a href="'.get_permalink().'" rel="bookmark"><time class="dt-published published">'. get_the_date() . '</time></a>';
-	$posted_by = '<a rel="author" class="p-author h-card" href="' . get_the_author_meta('user_url') . '">'. get_the_author() . '</a>';
+	$posted_by = '<a rel="author" class="p-author" href="' . get_the_author_meta('user_url') . '">'. get_the_author() . '</a>';
  	printf( '<span class="posted-on">' . esc_html__( '%1$s', 'ink' ) . '</span>', $posted_on ); // WPCS: XSS OK
 	printf( '<span class="posted-by">' . esc_html__( '%1$s', 'ink' ) . '</span>', $posted_by ); // WPCS: XSS OK
 }
