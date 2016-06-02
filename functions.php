@@ -168,6 +168,14 @@ function tweakjp_rm_comments_att( $open, $post_id ) {
 }
 add_filter( 'comments_open', 'tweakjp_rm_comments_att', 10 , 2 );
 
+/** microformats 2.0 support for tags */
+
+function add_tag_class($links) {
+    return str_replace('<a href="', '<a class="p-category" href="', $links);
+}
+
+add_filter( "term_links-post_tag", 'add_tag_class');
+
 /**
  * Implement the Custom Header feature.
  */
