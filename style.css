@@ -140,7 +140,10 @@ article {
 .main-navigation .menu,.site-branding,.site-content,.site-footer {
 }
 
-a.skip-link,span.byline,.screen-reader-text {
+a.skip-link,
+span.byline,
+.posted-by,
+.screen-reader-text {
     display: none;
 }
 

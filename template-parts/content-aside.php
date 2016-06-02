@@ -8,7 +8,7 @@
 	<header class="entry-header">
 		<?php the_title( sprintf( '<h1 class="p-name"><a href="%s" rel="bookmark u-url">', esc_url( get_permalink() ) ), '</a></h1>' ); ?>
 		<div class="entry-meta">
-			<?php ink_posted_on(); ?>
+			<?php ink_posted_on();  ?>
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
