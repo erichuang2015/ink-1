@@ -52,15 +52,15 @@ pre {
 
 .p-name,
 a {
-    color: #222;
+    color: #0079aa;
 }
 
 a:hover {
-    color: #888;
+    color: #0087be;
 }
 
 a:focus {
-	outline: thin dotted #222;
+	outline: thin dotted #333;
 }
 
 a:hover,
