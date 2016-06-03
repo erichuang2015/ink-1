@@ -4,7 +4,7 @@
  */
 ?>
 
-<article class="h-entry" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class('h-entry'); ?>>
 	<header class="entry-header">
 		<?php the_title( sprintf( '<h1 class="p-name"><a href="%s" rel="bookmark u-url">', esc_url( get_permalink() ) ), '</a></h1>' ); ?>
 		<div class="entry-meta">
