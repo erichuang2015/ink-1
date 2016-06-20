@@ -114,15 +114,15 @@ function ink_get_font_url() {
 	$font_url = '';
 
 	/* translators: If there are characters in your language that are not supported
-	 * by Ubuntu, translate this to 'off'. Do not translate into your own language.
+	 * by Lato, translate this to 'off'. Do not translate into your own language.
 	 */
-	if ( 'off' !== _x( 'on', 'Ubuntu font: on or off', 'ink' ) ) {
+	if ( 'off' !== _x( 'on', 'Lato font: on or off', 'ink' ) ) {
 		$subsets = 'latin,latin-ext';
 
 		/* translators: To add an additional Open Sans character subset specific to your language,
 		 * translate this to 'greek', 'cyrillic' or 'vietnamese'. Do not translate into your own language.
 		 */
-		$subset = _x( 'no-subset', 'Ubuntu font: add new subset (greek, cyrillic, vietnamese)', 'ink' );
+		$subset = _x( 'no-subset', 'Lato font: add new subset (greek, cyrillic, vietnamese)', 'ink' );
 
 		if ( 'cyrillic' == $subset )
 			$subsets .= ',cyrillic,cyrillic-ext';
@@ -132,7 +132,7 @@ function ink_get_font_url() {
 			$subsets .= ',vietnamese';
 
 		$query_args = array(
-			'family' => 'Ubuntu:400,700,700italic,400italic',
+			'family' => 'Lato:400,700,700italic,400italic',
 			'subset' => $subsets,
 		);
 		$font_url = add_query_arg( $query_args, 'https://fonts.googleapis.com/css' );

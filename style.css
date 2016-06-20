@@ -35,10 +35,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: #fff;
-    font-family: "Ubuntu", "Open Sans", Verdana, Arial, sans-serif;
+    font-family: "Lato", Arial, sans-serif;
     font-size: 16px;
     color: #222;
-    line-height: 1.575;
+    line-height: 1.55;
     -webkit-font-smoothing: subpixel-antialiased;
     font-smoothing: subpixel-antialiased;
 }
@@ -47,7 +47,7 @@ pre {
     color: #222;
     font-family: monospace;
     font-size: 16px;
-    line-height: 1.575;
+    line-height: 1.55;
 }
 
 .p-name,
@@ -433,7 +433,7 @@ ul {
 
 #comments ol {
     list-style-type: none;
-    padding-left: 0;
+    margin-left: 0;
 }
 
 #comments ol.children {
@@ -488,7 +488,7 @@ p.contact-submit {
 
 input,textarea,.contact-form input,.contact-form textarea {
     font-size: 1em;
-    line-height: 1.575;
+    line-height: 1.55;
     border: 1px solid #222;
     padding: 3px 6px;
     background: #fff;
@@ -515,7 +515,7 @@ input,textarea,.contact-form input,.contact-form textarea {
 }
 
 #sharing_email .sharing_send,.sd-content ul li .option a.share-ustom,.sd-content ul li a.sd-button,.sd-content ul li.advanced a.share-more,.sd-content ul li.preview-item div.option.option-smart-off a,.sd-social-icon .sd-content ul li a.sd-button,.sd-social-icon-text .sd-content ul li a.sd-button,.sd-social-official .sd-content>ul>li .digg_button >a,.sd-social-official .sd-content>ul>li>a.sd-button,.sd-social-text .sd-content ul li a.sd-button {
-    font-family: "Ubuntu", "Open Sans", Verdana, Arial, sans-serif;
+    font-family: "Lato", Arial, sans-serif;
     border-radius: 0 !important;
     box-shadow: none !important;
     text-shadow: none !important;
@@ -601,7 +601,7 @@ img#smiley {
 }
 
 #subscribe-email input {
-    line-height: 1.575;
+    line-height: 1.55;
     padding: 3px 6px !important;
     font-size: 1em;
     font-family: inherit;
@@ -614,7 +614,7 @@ img#smiley {
     background: #ECF0F1;
     color: #222 !important;
     font-weight: 400;
-    line-height: 1.575;
+    line-height: 1.55;
     -webkit-font-smoothing: subpixel-antialiased;
     font-smoothing: subpixel-antialiased;
     vertical-align: bottom;
