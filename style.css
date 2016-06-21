@@ -133,7 +133,7 @@ article {
 #page {
     background: #fff;
     margin: 0 auto;
-    max-width: 760px;
+    max-width: 640px;
 }
 
 .main-navigation .menu,.site-branding,.site-content,.site-footer {
@@ -320,6 +320,7 @@ img.aligncenter,.wp-caption.aligncenter {
 .tiled-gallery .tiled-gallery-item img, .tiled-gallery .tiled-gallery-item img:hover {
     border: 1px solid #222 !important;
 }
+
 .e-content img,.comment-content img,.widget img {
     max-width: 100%;
     height: auto;
@@ -621,14 +622,6 @@ img#smiley {
     -webkit-font-smoothing: subpixel-antialiased;
     font-smoothing: subpixel-antialiased;
     vertical-align: bottom;
-}
-
-@media screen and ( max-width: 760px ) {
-    #page {
-        width: 100%;
-        margin: 0;
-        max-width: none;
-    }
 }
 
 @media screen and ( max-width: 540px ) {
