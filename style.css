@@ -109,16 +109,16 @@ hr {
 blockquote {
     padding-left: 1em;
     margin: 0;
-    border-left: 2px solid #ccc;
+    border-left: 2px solid #ddd;
     color: #666;
 }
 
 blockquote > blockquote {
-    border-left: 2px solid #ccc;
+    border-left: 2px solid #ddd;
 }
 
 .comment-content blockquote {
-    border-left: 2px solid #ccc;
+    border-left: 2px solid #ddd;
 }
 
 .postscript {
