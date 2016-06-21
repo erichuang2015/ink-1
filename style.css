@@ -317,8 +317,8 @@ img.aligncenter,.wp-caption.aligncenter {
     clear: both;
 }
 
-.tiled-gallery .tiled-gallery-item img {
-    border: 1px solid #222;
+.tiled-gallery .tiled-gallery-item img, .tiled-gallery .tiled-gallery-item img:hover {
+    border: 1px solid #222 !important;
 }
 .e-content img,.comment-content img,.widget img {
     max-width: 100%;
