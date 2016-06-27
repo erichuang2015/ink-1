@@ -164,6 +164,7 @@ span.byline,
     clear: both;
     padding: 0 1em;
     text-transform: capitalize;
+    color: #666;
 }
 
 .site-description {
