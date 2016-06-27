@@ -83,7 +83,7 @@ a.pdf-link::after {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    color: #222;
+    color: #444;
     font-weight: bold;
 }
 
@@ -208,7 +208,7 @@ span.byline,
 }
 
 .posted-on a {
-    color: #222;
+    color: #444;
 }
 
 .widget-title {
@@ -242,7 +242,7 @@ p.tag-browse-list {
 
 .main-navigation .current_page_item > a {
     text-decoration: none;
-    color: #222;
+    color: #444;
 }
 
 .main-navigation ul {
