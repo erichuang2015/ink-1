@@ -558,6 +558,7 @@ h3.r {
 .tag-sep,.entry-footer .sep {
     font-weight: 700;
     margin: 0 1px;
+    color: #666;
 }
 
 .not-found img {
