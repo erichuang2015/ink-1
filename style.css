@@ -223,7 +223,6 @@ p.tag-browse-list {
 
 .tag-browse-list a {
     text-transform: capitalize;
-    margin-right: 4px;
 }
 
 .edit-link a {
@@ -555,7 +554,6 @@ h3.r {
 
 .tag-sep,.entry-footer .sep {
     font-weight: 700;
-    margin: 0 1px;
     color: #666;
 }
 
