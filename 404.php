@@ -21,7 +21,7 @@ get_header(); ?>
 		<div class="e-content">
 		<figure id="attachment_47749" style="width: 35%; margin-top: -3em;" class="wp-caption alignright"><img src="<?php echo get_stylesheet_directory_uri(); ?>/jabberwocky-404.jpg" alt="Jabberwocky"><figcaption class="wp-caption-text">From Lewis Carroll’s <em>Through the Looking-Glass and What Alice Found There</em>, 1871.</figcaption></figure>
 		<p>Not all those who wander are lost. But <em>some</em> are.</p>
-		<p>So, have a look at the <a href="<?php echo get_home_url(); ?>">front page</a> for the latest, or browse the <a href="#secondary">archives</a>.</p>
+		<p>So, have a look at the <a href="<?php echo get_home_url(); ?>">front page</a> for the latest, or browse the <a href="/browse/">archives</a>.</p>
 					</div><!-- .e-content -->
 
 		</article><!-- #post-## -->
