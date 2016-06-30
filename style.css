@@ -84,7 +84,6 @@ a.pdf-link::after {
 .entry-header a,
 .site-branding a {
     text-decoration: none;
-    font-weight: normal;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -184,7 +183,7 @@ span.byline,
 
 .entry-header {
     margin-bottom: 1em;
-    padding: 1.25em 1em;
+    padding: 1em;
     border-top: 2px solid #ccc;
     border-bottom: 1px dashed #aaa;
 }
@@ -234,7 +233,7 @@ p.tag-browse-list {
 .site-branding {
     border-top: 2px solid #ccc;
     border-bottom: 1px dashed #aaa;
-    padding: 1.25em 1em;
+    padding: 1em;
 }
 
 .main-navigation {
@@ -285,7 +284,7 @@ p.tag-browse-list {
     margin-top: 2em;
     clear: both;
     overflow: hidden;
-    padding: 1.25em 1em;
+    padding: 1em;
     border-top: 2px solid #ccc;
 }
 
@@ -308,7 +307,7 @@ p.tag-browse-list {
 }
 
 img.alignleft,.wp-caption.alignleft {
-    margin: 1em 1em 1em 0;
+    margin-left: 1em 1em 1em 0;
 }
 
 img.alignright,.wp-caption.alignright {
@@ -581,7 +580,7 @@ h3.r {
 .site-footer {
     clear: both;
     border-top: 1px dashed #aaa;
-    padding: 1.25em 1em 2em;
+    padding: 1em 1em 2em;
 }
 
 img#smiley {
