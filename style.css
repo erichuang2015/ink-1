@@ -88,7 +88,7 @@ a.pdf-link::after {
 
 h1,h2,h3,h4,h5,h6 {
     color: #666;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .e-content h1,.e-content h2,.e-content h3,.e-content h4,.e-content h5,.e-content h6,.comments-area h1,.comments-area h2,.comments-area h3,.comments-area h4,.comments-area h5,.comments-area h6 {
