@@ -40,7 +40,7 @@ body {
     padding: 0;
     background-color: #fff;
     font-family: "Ubuntu", Arial, sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     color: #222;
     line-height: 1.55;
     -webkit-font-smoothing: subpixel-antialiased;
@@ -50,7 +50,7 @@ body {
 pre {
     color: #222;
     font-family: monospace;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1.55;
 }
 
