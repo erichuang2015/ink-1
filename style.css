@@ -571,10 +571,10 @@ h3.r {
 /* Structure */
 
 .widget-area {
-    padding: 1em 1em 0 1em;
+    margin: 1em 1em 2em 1em;
 }
 .widget {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 .site-footer {
