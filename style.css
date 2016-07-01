@@ -63,9 +63,6 @@ a:hover {
     color: #f00;
 }
 
-textarea:focus,
-button:focus,
-input:focus,
 a:focus {
 	outline: thin dotted #333;
 }
@@ -74,6 +71,13 @@ li:focus,
 a:hover,
 a:active {
 	outline: 0;
+}
+
+textarea:focus,
+button:focus,
+input:focus {
+    outline: 0;
+    border: 1px solid #333;
 }
 
 a.pdf-link::after {
