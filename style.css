@@ -60,7 +60,7 @@ a {
 }
 
 a:hover {
-    color: #f00;
+    color: #e00;
 }
 
 a:focus {
@@ -237,7 +237,7 @@ p.tag-browse-list {
 }
 
 .edit-link a {
-    color: #f00;
+    color: #e00;
     float: right;
 }
 
