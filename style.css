@@ -63,10 +63,14 @@ a:hover {
     color: #f00;
 }
 
+textarea:focus,
+button:focus,
+input:focus,
 a:focus {
 	outline: thin dotted #333;
 }
 
+li:focus,
 a:hover,
 a:active {
 	outline: 0;
