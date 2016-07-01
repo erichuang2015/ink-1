@@ -103,7 +103,6 @@ h1,h2,h3,h4,h5,h6 {
 .comments-area h1,.comments-area h2,.comments-area h3,.comments-area h4,.comments-area h5,.comments-area h6 {
     margin: 2em 0 1em;
     border-bottom: 1px solid #ccc;
-    padding-bottom: 0.5em;
 }
 
 input,textarea {
