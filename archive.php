@@ -45,7 +45,12 @@ get_header(); ?>
 
 			<?php endwhile; ?>
 
-			<?php the_posts_navigation(); ?>
+			<?php if ( get_option('posts_per_page') == 1 ) {
+				the_post_navigation();
+			} else {
+				the_posts_navigation();
+			}
+			?>
 
 		<?php else : ?>
 
