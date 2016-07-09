@@ -238,6 +238,7 @@ p.tag-browse-list {
 
 .edit-link a {
     color: #e00;
+    margin-top: -2em;
     float: right;
 }
 
