@@ -202,7 +202,7 @@ span.byline,
 .page-header {
     padding: 1em;
     border-top: 2px solid #ccc;
-    background-color: #f8f8f8;
+    text-align: center;
 }
 
 .e-content {
