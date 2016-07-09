@@ -200,7 +200,9 @@ span.byline,
 }
 
 .page-header {
-    padding: 0 1em 1em 1em;
+    padding: 1em;
+    border-top: 2px solid #ccc;
+    background-color: #f8f8f8;
 }
 
 .e-content {
