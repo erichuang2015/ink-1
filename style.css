@@ -1,8 +1,8 @@
 /*
 Theme Name: Ink
-Theme URI: https://chris.ink
+Theme URI: https://rudzki.org
 Author: Chris Rudzki
-Author URI: https://chris.ink
+Author URI: https://rudzki.org
 Description: A clean, minimal theme that's wonderful for those who blog with their words.
 Version: 1.0
 License: GNU General Public License v2 or later
@@ -103,7 +103,7 @@ h1,h2,h3,h4,h5,h6 {
 .comments-area h1,.comments-area h2,.comments-area h3,.comments-area h4,.comments-area h5,.comments-area h6 {
     margin: 2em 0 1em;
     padding: 0 0 4px 0;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #222;
 }
 
 input,textarea {
@@ -195,8 +195,8 @@ span.byline,
 .entry-header {
     margin-bottom: 1em;
     padding: 1em;
-    border-top: 2px solid #ccc;
-    border-bottom: 1px dashed #aaa;
+    border-top: 2px solid #222;
+    border-bottom: 1px dashed #222;
 }
 
 .page-header {
@@ -230,11 +230,13 @@ span.byline,
     margin-top: 0;
 }
 
-p.tag-browse-list {
-    margin: 0;
+.widget_tag_cloud .widget-title {
+    display: none;
 }
 
-.tag-browse-list a {
+.widget_tag_cloud a {
+    font-size: inherit !important;
+    margin-right: 5px;
     text-transform: capitalize;
 }
 
@@ -245,9 +247,9 @@ p.tag-browse-list {
 }
 
 .site-branding {
-    border-top: 2px solid #ccc;
-    padding: 2em 1em;
-    text-align: center;
+    border-top: 2px solid #222;
+    border-bottom: 1px dashed #222;
+    padding: 1em;
 }
 
 .main-navigation {
@@ -299,7 +301,7 @@ p.tag-browse-list {
     clear: both;
     overflow: hidden;
     padding: 1em;
-    border-top: 2px solid #ccc;
+    border-top: 2px solid #222;
 }
 
 .widget ul {
@@ -594,7 +596,7 @@ h3.r {
 
 .site-footer {
     clear: both;
-    border-top: 1px dashed #aaa;
+    border-top: 1px dashed #222;
     padding: 1em 1em 2em;
 }
 
